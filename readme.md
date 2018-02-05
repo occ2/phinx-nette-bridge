@@ -1,6 +1,16 @@
 Phinx bridge to Nette DI
 --
 
+Requirements
+---
+
+```
+nette/di
+contributte/console
+robmorgan/phinx
+```
+
+
 
 Install
 ---
@@ -33,4 +43,15 @@ phinx:
             port: 3306
             charset: utf8
     version_order: creation
+```
+
+
+Usage
+---
+```
+{PATH_TO_CONSOLE} phinx:migrate 
+{PATH_TO_CONSOLE} phinx:create 
+{PATH_TO_CONSOLE} phinx:rollback 
+{PATH_TO_CONSOLE} phinx:status
+{PATH_TO_CONSOLE} phinx:breakpoint  
 ```
