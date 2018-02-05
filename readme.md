@@ -1,16 +1,16 @@
 Phinx bridge to Nette DI
 --
-
+[![Downloads this Month](https://img.shields.io/packagist/dm/banyacz/phinx-nette-bridge.svg)](https://packagist.org/packages/banyacz/phinx-nette-bridge)
 [![License](https://img.shields.io/badge/license-New%20BSD-blue.svg)](https://github.com/banyacz/phinx-nette-bridge/blob/master/license.md)
 
 Requirements
 ---
 
-```
-nette/di
-contributte/console
-robmorgan/phinx
-```
+[NETTE/DI](https://github.com/nette/di)
+
+[contributte/console](https://github.com/contributte/console)
+
+[robmorgan/phinx](https://github.com/cakephp/phinx)
 
 
 
