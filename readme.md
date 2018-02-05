@@ -1,6 +1,8 @@
 Phinx bridge to Nette DI
 --
 
+[![License](https://img.shields.io/badge/license-New%20BSD-blue.svg)](https://github.com/banyacz/phinx-nette-bridge/blob/master/license.md)
+
 Requirements
 ---
 
