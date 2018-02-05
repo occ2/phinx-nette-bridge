@@ -3,6 +3,10 @@ Phinx bridge to Nette DI
 [![Downloads this Month](https://img.shields.io/packagist/dm/banyacz/phinx-nette-bridge.svg)](https://packagist.org/packages/banyacz/phinx-nette-bridge)
 [![License](https://img.shields.io/badge/license-New%20BSD-blue.svg)](https://github.com/banyacz/phinx-nette-bridge/blob/master/license.md)
 
+
+This library integrate basic commands from phinx migration to contributte/console. 
+
+
 Requirements
 ---
 
