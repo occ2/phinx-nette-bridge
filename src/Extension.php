@@ -6,9 +6,13 @@ use Nette\DI\CompilerExtension;
 use Phinx\Config\Config;
 use Phinx\Console\Command\Breakpoint;
 use Phinx\Console\Command\Create;
+use Phinx\Console\Command\Init;
 use Phinx\Console\Command\Migrate;
 use Phinx\Console\Command\Rollback;
+use Phinx\Console\Command\SeedCreate;
+use Phinx\Console\Command\SeedRun;
 use Phinx\Console\Command\Status;
+use Phinx\Console\Command\Test;
 
 /**
  * Class Extension
@@ -19,11 +23,15 @@ class Extension extends CompilerExtension
 {
 	/** @var array */
 	private static $commands = [
+		Init::class,
 		Create::class,
 		Migrate::class,
 		Rollback::class,
 		Status::class,
 		Breakpoint::class,
+		SeedCreate::class,
+		SeedRun::class,
+		Test::class,
 	];
 
 	/** {@inheritdoc} */

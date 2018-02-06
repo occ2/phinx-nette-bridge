@@ -4,26 +4,22 @@ Phinx bridge to Nette DI
 [![License](https://img.shields.io/badge/license-New%20BSD-blue.svg)](https://github.com/banyacz/phinx-nette-bridge/blob/master/license.md)
 
 
-This library integrate basic commands from phinx migration to contributte/console. 
+Small extension to integrate basic commands to contributte/console for Nette Framework.
 
 
 Requirements
 ---
 
-[NETTE/DI](https://github.com/nette/di)
-
-[contributte/console](https://github.com/contributte/console)
-
-[robmorgan/phinx](https://github.com/cakephp/phinx)
+- [Nette/DI](https://github.com/nette/di)
+- [contributte/console](https://github.com/contributte/console)
+- [robmorgan/phinx](https://github.com/cakephp/phinx)
 
 
 
 Install
 ---
-
-1) Require library  ``composer require banyacz/phinx-nette``
+1) ``composer require banyacz/phinx-nette``
 2) Register DI extension 
-
 ``` 
 extensions:
     phinx: Banyacz\Phinx\DI\PhinxExtension
@@ -37,7 +33,7 @@ Configuration
 ```
 phinx:
     paths:
-        migrations: ./migrations
+        migrations: "./db/migrations"
     default_migration_table: phinxlog
     environments:
         development:
