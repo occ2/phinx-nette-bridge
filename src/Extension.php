@@ -23,7 +23,6 @@ class Extension extends CompilerExtension
 {
 	/** @var array */
 	private static $commands = [
-		Init::class,
 		Create::class,
 		Migrate::class,
 		Rollback::class,
@@ -31,7 +30,6 @@ class Extension extends CompilerExtension
 		Breakpoint::class,
 		SeedCreate::class,
 		SeedRun::class,
-		Test::class,
 	];
 
 	/** {@inheritdoc} */
