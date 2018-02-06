@@ -1,6 +1,6 @@
 <?php
 
-namespace Banyacz\Phinx\DI;
+namespace Banyacz\Phinx;
 
 use Nette\DI\CompilerExtension;
 use Phinx\Config\Config;
@@ -11,11 +11,11 @@ use Phinx\Console\Command\Rollback;
 use Phinx\Console\Command\Status;
 
 /**
- * Class PhinxExtension
- * @package Banyacz\Phinx\DI
+ * Class Extension
+ * @package Banyacz\Phinx
  * @author  Josef Banya <josef@banya.cz>
  */
-class PhinxExtension extends CompilerExtension
+class Extension extends CompilerExtension
 {
 	/** @var array */
 	private static $commands = [
