@@ -30,7 +30,7 @@ class PhinxExtension extends CompilerExtension
 	public function beforeCompile()
 	{
 		$this->getContainerBuilder()->addDefinition($this->prefix('config'))
-			->setFactory(Config::class, $this->getConfig());
+			->setFactory(Config::class, [$this->getConfig()]);
 
 		foreach (static::$commands as $class) {
 			$name = lcfirst(str_replace('Phinx\Console\Command\\', '', $class));
