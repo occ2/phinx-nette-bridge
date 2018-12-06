@@ -1,6 +1,6 @@
 <?php
 
-namespace Banyacz\Phinx;
+namespace occ2\Phinx\DI;
 
 use Nette\DI\CompilerExtension;
 use Phinx\Config\Config;
@@ -14,10 +14,10 @@ use Phinx\Console\Command\Status;
 
 /**
  * Class Extension
- * @package Banyacz\Phinx
+ * @package occ2\DI\Phinx
  * @author  Josef Banya <josef@banya.cz>
  */
-class Extension extends CompilerExtension
+class PhinxExtension extends CompilerExtension
 {
 	/** @var array */
 	private static $commands = [
