@@ -22,7 +22,7 @@ Install
 2) Register DI extension 
 ``` 
 extensions:
-    phinx: Banyacz\Phinx\DI\PhinxExtension
+    phinx: occ2\Phinx\DI\PhinxExtension
 ```
 
 
