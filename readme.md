@@ -18,7 +18,7 @@ Requirements
 
 Install
 ---
-1) ``composer require banyacz/phinx-nette``
+1) ``composer require occ2/phinx-nette-bridge``
 2) Register DI extension 
 ``` 
 extensions:
