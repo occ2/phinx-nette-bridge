@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "occ2\\Phinx\\": "src/"
+            "occ2\\Phinx\\DI\\": "src/"
         }
     }
 }
