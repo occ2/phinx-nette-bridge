@@ -14,7 +14,7 @@ use Phinx\Console\Command\Status;
 
 /**
  * Class Extension
- * @package occ2\DI\Phinx
+ * @package occ2\Phinx\DI
  * @author  Josef Banya <josef@banya.cz>
  */
 class PhinxExtension extends CompilerExtension
